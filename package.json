@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-tutorial",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "docute-cli": "^0.5.2"
+  },
+  "scripts": {
+    "start": "docute ./docs --port 5080 --open",
+    "watch": "docute ./docs --watch --port 5080 --open"
+  },
+  "keywords": [],
+  "author": "lipengzhou",
+  "license": "ISC"
+}
